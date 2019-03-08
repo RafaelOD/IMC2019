@@ -8,6 +8,32 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso (kg)" />
+
+    <EditText
+        android:id="@+id/Peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura (Cm)" />
+
+    <EditText
+        android:id="@+id/Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -15,16 +41,21 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/Calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:onClick="CalcularIMC"
+        android:text="Calcular IMC" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/IMC"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/patinho" />
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="IMC:" />
 
 </LinearLayout>
