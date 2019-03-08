@@ -8,50 +8,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nome" />
-
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:text="Button" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-mail" />
+        android:layout_gravity="center"
+        android:text="Button" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Comentário" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:layout_gravity="right"
+        android:text="Button"
+        tools:ignore="RtlHardcoded" />
 
 </LinearLayout>
