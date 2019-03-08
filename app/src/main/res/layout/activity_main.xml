@@ -15,24 +15,16 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Button" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text="Button"
-        tools:ignore="RtlHardcoded" />
+        app:srcCompat="@mipmap/patinho" />
 
 </LinearLayout>
